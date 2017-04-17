@@ -8,7 +8,7 @@ var i = 0;
 
 setInterval( function changeSlide() {
 	var pic = document.getElementById("heroImg");
-	var pics = ["img/gym.jpg", "img/lazerTag.jpg", "img/snackBar.jpg", "img/swimmingPool.jpg", "img/bumpercars3.jpg"];
+	var pics = ["http://i1.kym-cdn.com/photos/images/original/000/947/499/634.jpg"];
 	pic.src = pics[i];
 	i++;
 	if (i >= pics.length)
